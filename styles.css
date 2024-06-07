@@ -3,10 +3,11 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
+    background-color: #e6f2e6;
 }
 
 header {
-    background: #333;
+    background: #006400;
     color: #fff;
     padding: 20px 0;
     text-align: center;
@@ -37,7 +38,7 @@ section {
     background: #f4f4f4;
     margin: 5px 0;
     padding: 10px;
-    border-left: 5px solid #333;
+    border-left: 5px solid #006400;
 }
 
 #projects .project {
@@ -47,7 +48,7 @@ section {
 }
 
 #contact a {
-    color: #333;
+    color: #006400;
     text-decoration: none;
 }
 
@@ -56,12 +57,16 @@ section {
 }
 
 footer {
-    background: #333;
+    background: #006400;
     color: #fff;
     text-align: center;
     padding: 10px 0;
     position: absolute;
     bottom: 0;
     width: 100%;
+}
+
+img {
+    vertical-align: middle;
 }
 
