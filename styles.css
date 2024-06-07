@@ -30,7 +30,7 @@ header h1 {
 section {
     padding: 20px 0;
     border-bottom: 1px solid #ccc;
-    flex: 1; /* Ensure sections take up the remaining space */
+    flex: 1;
 }
 
 #skills ul {
@@ -65,8 +65,9 @@ footer {
     color: #fff;
     text-align: center;
     padding: 10px 0;
-    font-size: 0.8em; /* Make the text smaller */
-    margin-top: auto; /* Push footer to the bottom */
+    font-size: 0.8em;
+    position: absolute;
+    bottom: 0;
     width: 100%;
 }
 
