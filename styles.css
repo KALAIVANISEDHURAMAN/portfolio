@@ -1,4 +1,27 @@
-body {
+/* Add animation to your hero section */
+#hero {
+    animation: fadeIn 2s;
+  }
+  
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  /* Add media query for mobile devices */
+@media only screen and (max-width: 768px) {
+    /* Adjust layout and design elements for mobile devices */
+    #hero {
+      height: 50vh;
+    }
+    #skills ul {
+      flex-wrap: wrap;
+    }
+  }
+  body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
     margin: 0;
